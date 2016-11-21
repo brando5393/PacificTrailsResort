@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pacific Trails Resort :: Reservations</title>
+    <link rel="stylesheet" href="pacific.css">
+    <meta name="viewport"
+    content="width=device-width,
+    initial-scale=1.0">
+    <!--[if le IE 9]>
+    <script src="http://html5shim.google.com/svn/trunk/html5.js">
+    </script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="wrapper">
+    <header>
+      <h1><strong>Pacific Trails Resort</h1>
+    </header>
+    <nav><ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="yurts.html">Yurts</a></li>
+      <li><a href="activities.html">Activities</a></li>
+      <li><a href="resservations.html">Resservations</a></li>
+    </ul></nav>
+  </br>
+  <main>
+    <h2>Reservations at Pacific Trails</h2>
+    <h3>Contact Us Today!</h3>
+    <p>Required fields are marked with an asterisk*</p>
+    <form method="post" action="http://webdevbasics.net/scripts/pacific.php">
+      <label>*First Name:</label>
+      <input type="text" name="myFName" id="myFName" placeholder="John" autofocus required>
+      <label>*Last Name:</label>
+      <input type="text" name="myLName" id="myLName" placeholder="Doe" required>
+      <label>*E-mail:</label>
+      <input type="email" name="myEmail" id="myEmail" placeholder="johndoe123@yahoo.com" required>
+      <label>Phone:</label>
+      <input type="tel" name="myPhone" id="myPhone" placeholder="555-555-5555">
+      <label>Arrival Date:</label>
+      <input type="date" name="arrivalDate" id="arrivalDate">
+      <label>Nights:</label>
+      <input type="number" name="nights" id="nights">
+      <label for="textarea">*Comments:</label>
+      <textarea rows="2" cols="30" name="myComments" id="myComments" required placeholder="Is Yurt #16 available?"></textarea>
+      <input type="submit" value="Submit">
+    </form>
+  <div>
+    <p><span class="resort">Pacific Trails Resort</span></br>12010 Pacific Trails Road</br>Zephyr, CA 95555</br></br><a id="mobile" href="tel:888-555-5555">888-555-5555</a><span id="desktop">888-555-5555</span></p>
+    </br>
+  </div>
+  </main>
+    <footer>
+      <small><m>Copyright &copy; 2016 Pacific Trails Resort</m></small>
+      </br>
+      <a href="mailto:Brandon@Williams.com?subject=inactiveaddress">brandon@williams.com</a>
+  </footer>
+</div>
+  </body>
+</html>
